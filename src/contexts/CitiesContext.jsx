@@ -1,4 +1,4 @@
-import { createContext, useEffect, useState } from "react";
+import { createContext, useContext, useEffect, useState } from "react";
 const BASE_URL = "http://localhost:9000";
 
 const CitiesContext = createContext();
@@ -24,12 +24,19 @@ function CitiesProvider({ children }) {
   }, []);
 
   return (
-    <CitiesContext.Provider
-      value={{ cities, isLoading }}
-    >
+    <CitiesContext.Provider value={{ cities, isLoading }}>
       {children}
     </CitiesContext.Provider>
   );
 }
 
-export {CitiesProvider};
+function useCities() {
+  const context = useContext(CitiesContext);
+  if (context === undefined)
+    throw new Error(
+      "CitiesContext đã bị sử dụng ở bên ngoài CitiesProvider!!!"
+    );
+  return context;
+}
+
+export { CitiesProvider, useCities };
