@@ -5,7 +5,7 @@ import CountryItem from "./CountryItem";
 import { useCities } from "../contexts/CitiesContext";
 
 function CountryList() {
-  const { cities, isLoading } = useCities();
+  const { cities, isLoading } = useCities(); //step3: CONSUMING CONTEXT VALUE
   if (isLoading) return <Spinner />;
 
   if (!cities.length)

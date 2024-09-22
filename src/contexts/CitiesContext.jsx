@@ -1,6 +1,7 @@
 import { createContext, useContext, useEffect, useState } from "react";
 const BASE_URL = "http://localhost:9000";
 
+//step1: CREATE A CONTEXT
 const CitiesContext = createContext();
 
 function CitiesProvider({ children }) {
@@ -24,6 +25,7 @@ function CitiesProvider({ children }) {
   }, []);
 
   return (
+    //step2: PROVIDE VALUE TO CHILD COMPONENTS
     <CitiesContext.Provider value={{ cities, isLoading }}>
       {children}
     </CitiesContext.Provider>
