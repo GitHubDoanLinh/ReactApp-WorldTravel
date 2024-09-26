@@ -4,8 +4,8 @@
       "cityName": "Lisbon",
       "country": "Portugal",
       "emoji": "🇵🇹",
-      "date": "2027-10-31T15:59:59.138Z",
-      "notes": "My favorite city so far!",
+      "date": "2025-10-31T15:59:59.138Z",
+      "notes": "a nice city so far!",
       "position": {
         "lat": 38.727881642324164,
         "lng": -9.140900099907554
@@ -13,22 +13,34 @@
       "id": 73930385
     },
     {
-      "cityName": "Madrid",
-      "country": "Spain",
-      "emoji": "🇪🇸",
-      "date": "2027-07-15T08:22:53.976Z",
-      "notes": "",
+      "cityName": "HaNoi",
+      "country": "VietNam",
+      "emoji": "🇻🇳",
+      "date": "2018-08-15T08:22:53.976Z",
+      "notes": "So many beautiful girls and great cuisine!",
       "position": {
-        "lat": 40.46635901755316,
-        "lng": -3.7133789062500004
+        "lat": 21.0278,
+        "lng": 105.8342
       },
       "id": 17806751
+    },
+    {
+      "cityName": "Seoul",
+      "country": "South Korea",
+      "emoji": "🇰🇷",
+      "date": "2025-02-12T09:24:11.863Z",
+      "notes": "a model city",
+      "position": {
+        "lat": 37.56667,
+        "lng": 126.97806
+      },
+      "id": 98443197
     },
     {
       "cityName": "Berlin",
       "country": "Germany",
       "emoji": "🇩🇪",
-      "date": "2027-02-12T09:24:11.863Z",
+      "date": "2026-02-12T09:24:11.863Z",
       "notes": "Amazing 😃",
       "position": {
         "lat": 52.53586782505711,
