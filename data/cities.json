@@ -37,16 +37,40 @@
       "id": 98443197
     },
     {
-      "cityName": "Milan",
-      "country": "Italy",
-      "emoji": "🇮🇹",
-      "date": "2024-10-02T10:24:52.605Z",
-      "notes": "",
+      "cityName": "Amsterdam",
+      "country": "Netherlands (Kingdom of the)",
+      "emoji": "🇳🇱",
+      "date": "2024-10-04T07:50:19.156Z",
+      "notes": "good",
       "position": {
-        "lat": "45.47356897446545",
-        "lng": "9.228515625000002"
+        "lat": "52.362141749431956",
+        "lng": "4.910888671875001"
       },
       "id": 98443199
+    },
+    {
+      "cityName": "Guangzhou",
+      "country": "China",
+      "emoji": "🇨🇳",
+      "date": "2024-10-04T07:51:00.267Z",
+      "notes": "sfewf",
+      "position": {
+        "lat": "22.94341688466824",
+        "lng": "113.3953857421875"
+      },
+      "id": 98443200
+    },
+    {
+      "cityName": "San Michele al Tagliamento",
+      "country": "Italy",
+      "emoji": "🇮🇹",
+      "date": "2024-10-04T08:19:52.798Z",
+      "notes": "",
+      "position": {
+        "lat": "45.79921578783202",
+        "lng": "12.963867187500002"
+      },
+      "id": 98443201
     }
   ]
 }
