@@ -4,7 +4,7 @@ import styles from "./CityList.module.css";
 import Spinner from "./Spinner";
 import Message from "./Message";
 import { useCities } from "../contexts/CitiesContext";
-function CityList() {
+function CityList() { 
   const { cities, isLoading } = useCities(); //step3: CONSUMING CONTEXT VALUE
   if (isLoading) return <Spinner />;
 
